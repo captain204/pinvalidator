@@ -89,7 +89,7 @@ class PinsController extends Controller
     public function pins_verify(PinRequest $request){
         $input = $request->validated();
         #$valid = Pin::whereId($post->id)->update($data);
-        $valid = Pin::where('serial_no', $input['serial_no'])->get()->toJson(JSON_PRETTY_PRINT);
+        $valid = Pin::where('serial_no', $input['serial_no']);
         if(!$valid){
             return response()->json([
                 'message' => '0',

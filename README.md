@@ -79,5 +79,4 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 ##How to consume this api
 
-visit: https://pinvalidator.herokuapp.com/api/v1/pins_verify?api_-token=YZkILVX
-Here is a sample serial number : 403535603629121
+visit: https://documenter.getpostman.com/view/9371935/SWTD6wPW?version=latest
